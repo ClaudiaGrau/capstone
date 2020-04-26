@@ -64,7 +64,7 @@ nav a {
 .banner {
     background-color: lightgray;
     width: 100%;
-    display: flex;
+    position: relative;
 }
 .banner img {
     margin: 32px 24px;
@@ -72,14 +72,32 @@ nav a {
 } 
 
 .banner-text {
-    align-items: center;
+    width: 40%;
+    height: 600px;
+    position: absolute;
+    top: 30%;
+    left: 1000px;
     
+}
+
+.banner-text h2 {
+    font-size: 34px;
+    margin: 10px 0;
+}
+
+.banner-text p {
+    font-size: 24px;
+    margin: 10px 0;
 }
 
 .banner-btn {
     border: 1px solid grey;
     background-color: grey;
-    padding: 14px 50px;
+    padding-top: 15px;
+    width: 200px;
+    height: 36px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .banner-btn a {
