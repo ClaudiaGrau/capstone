@@ -3,3 +3,79 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial;
+}
+
+header {
+    height: 64px;
+    width: 100%;
+    display: flex;
+}
+
+#title {
+    height: 64px;
+    display: inline-flex;
+    margin-left: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    justify-content: flex-end;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+header h1 #light {
+    font-weight: 100;
+}
+
+nav {
+    height: 64px;
+    margin-right: 24px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    font-size: 16px;
+    justify-content: flex-end;
+}
+
+header nav li {
+    display: inline-flex;
+    padding-left: 16px;
+}
+
+nav a { 
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+}
+.banner img {
+    margin: 32px 24px;
+    width: 60%;
+} 
+
+.banner-text {
+   
+    
+}
+
+.banner-btn {
+    border: 1px solid grey;
+    background-color: grey;
+    padding: 14px 50px;
+}
+
+.banner-btn a {
+    color: white;
+    text-decoration: none;
+}
